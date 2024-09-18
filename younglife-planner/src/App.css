@@ -40,3 +40,18 @@
 .read-the-docs {
   color: #888;
 }
+
+/* App.css */
+body {
+  background-color: #e6f2ff; /* Light blue background */
+}
+
+.App {
+  min-height: 100vh;
+}
+
+main {
+  background-color: #87a8cb; 
+  min-height: calc(100vh - 56px); /* Adjust 56px to your navbar height */
+  padding-top: 1rem;
+}

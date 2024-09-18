@@ -1,0 +1,17 @@
+.club-title {
+    font-family: 'Garamond', serif; 
+    color: #e6f2ff;
+    font-size: 4rem;
+    text-align: center; 
+  }
+
+.club-font {
+    font-family: 'Garamond', serif; 
+    color: #e6f2ff; 
+  }
+
+.card {
+    background-color: #e6f2ff!important; 
+    font-family: 'Garamond', serif;
+}
+
