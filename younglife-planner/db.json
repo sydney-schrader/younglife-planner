@@ -1,103 +1,6 @@
 {
   "clubs": [
     {
-      "id": 1,
-      "theme": "Test Club",
-      "date": "2023-05-15"
-    },
-    {
-      "id": "6203",
-      "theme": "Groutfit",
-      "date": "",
-      "song1": {
-        "name": "",
-        "person1": "",
-        "person2": ""
-      },
-      "mixer": {
-        "name": ""
-      },
-      "announcements": {
-        "person1": "",
-        "person2": ""
-      },
-      "skit": {
-        "name": "",
-        "person1": "",
-        "person2": ""
-      },
-      "game": {
-        "name": ""
-      },
-      "raffle": {
-        "person1": "",
-        "person2": ""
-      },
-      "lungbleeder": {
-        "name": "",
-        "person1": "",
-        "person2": ""
-      },
-      "contentSong": {
-        "name": "",
-        "person1": "",
-        "person2": ""
-      },
-      "talk": {
-        "name": "",
-        "person1": ""
-      },
-      "slides": {
-        "person1": ""
-      }
-    },
-    {
-      "id": "94fb",
-      "theme": "New",
-      "date": "",
-      "song1": {
-        "name": "",
-        "person1": "",
-        "person2": ""
-      },
-      "mixer": {
-        "name": ""
-      },
-      "announcements": {
-        "person1": "",
-        "person2": ""
-      },
-      "skit": {
-        "name": "",
-        "person1": "",
-        "person2": ""
-      },
-      "game": {
-        "name": ""
-      },
-      "raffle": {
-        "person1": "",
-        "person2": ""
-      },
-      "lungbleeder": {
-        "name": "",
-        "person1": "",
-        "person2": ""
-      },
-      "contentSong": {
-        "name": "",
-        "person1": "",
-        "person2": ""
-      },
-      "talk": {
-        "name": "",
-        "person1": ""
-      },
-      "slides": {
-        "person1": ""
-      }
-    },
-    {
       "id": "b4dc",
       "theme": "Jersey Shore",
       "date": "2024-09-16",
@@ -144,37 +47,267 @@
       }
     },
     {
-      "id": "1726632770941",
-      "theme": "Neon Club",
-      "date": "2024-09-04",
+      "id": "1726633428331",
+      "theme": "Neon ",
+      "date": "2024-02-17",
+      "song1": {
+        "name": "This is what you came for",
+        "person1": "Paige",
+        "person2": "Lexi"
+      },
+      "mixer": {
+        "name": "Glow Sticks"
+      },
+      "announcements": {
+        "person1": "Garrett",
+        "person2": "Grace"
+      },
+      "skit": {
+        "name": "Clubbers",
+        "person1": "Kara",
+        "person2": "Mia"
+      },
+      "game": {
+        "name": "Blind Karaoke"
+      },
+      "raffle": {
+        "person1": "Ben",
+        "person2": "Henry"
+      },
+      "lungbleeder": {
+        "name": "Love is an open door",
+        "person1": "Laura",
+        "person2": "Grace"
+      },
+      "contentSong": {
+        "name": "You will find me",
+        "person1": "Ben",
+        "person2": "Bailey"
+      },
+      "talk": {
+        "name": "Creation",
+        "person1": "Syd"
+      },
+      "slides": {
+        "person1": "Bailey"
+      }
+    },
+    {
+      "id": "1726633529182",
+      "theme": "Camo - Girls Club",
+      "date": "2024-02-12",
       "song1": {
         "name": "",
-        "person1": "",
-        "person2": ""
+        "person1": "Parm",
+        "person2": "Payton"
       },
       "mixer": {
         "name": ""
       },
       "announcements": {
-        "person1": "",
-        "person2": ""
+        "person1": "Mihika",
+        "person2": "Emery"
       },
       "skit": {
         "name": "",
-        "person1": "",
-        "person2": ""
+        "person1": "Polly",
+        "person2": "Ema"
       },
       "game": {
         "name": ""
       },
       "raffle": {
-        "person1": "",
-        "person2": ""
+        "person1": "Ginger",
+        "person2": "Ally"
       },
       "lungbleeder": {
         "name": "",
-        "person1": "",
-        "person2": ""
+        "person1": "Lilah",
+        "person2": "Grace"
+      },
+      "contentSong": {
+        "name": "",
+        "person1": "Mimi",
+        "person2": "Ben"
+      },
+      "talk": {
+        "name": "Testimony",
+        "person1": "Francie"
+      },
+      "slides": {
+        "person1": "Sydney"
+      }
+    },
+    {
+      "id": "1726633638024",
+      "theme": "Frat",
+      "date": "2024-02-26",
+      "song1": {
+        "name": "Gods Plan",
+        "person1": "GG",
+        "person2": "Guys"
+      },
+      "mixer": {
+        "name": "Rizz off"
+      },
+      "announcements": {
+        "person1": "Lexi",
+        "person2": "Grace"
+      },
+      "skit": {
+        "name": "Frat",
+        "person1": "Mia",
+        "person2": "Kara"
+      },
+      "game": {
+        "name": "Bottle Flip tic tac toe"
+      },
+      "raffle": {
+        "person1": "Henry",
+        "person2": "Paige"
+      },
+      "lungbleeder": {
+        "name": "Before he Cheats",
+        "person1": "Syd",
+        "person2": "Girls"
+      },
+      "contentSong": {
+        "name": "Reckless Love",
+        "person1": "Bailey",
+        "person2": "Ben"
+      },
+      "talk": {
+        "name": "POC",
+        "person1": "Ben"
+      },
+      "slides": {
+        "person1": "Syd"
+      }
+    },
+    {
+      "id": "1726633754044",
+      "theme": "Spring Break",
+      "date": "",
+      "song1": {
+        "name": "Cake by the Ocean",
+        "person1": "Sydney",
+        "person2": "Laura"
+      },
+      "mixer": {
+        "name": "Tortillas"
+      },
+      "announcements": {
+        "person1": "Kara",
+        "person2": "Grace"
+      },
+      "skit": {
+        "name": "",
+        "person1": "Ben",
+        "person2": "Henry"
+      },
+      "game": {
+        "name": "Tissue Box Twerk"
+      },
+      "raffle": {
+        "person1": "Mia",
+        "person2": "GG"
+      },
+      "lungbleeder": {
+        "name": "If I aint got you",
+        "person1": "Paige",
+        "person2": "Sydney"
+      },
+      "contentSong": {
+        "name": "Let there be light",
+        "person1": "Ben",
+        "person2": "Bailey"
+      },
+      "talk": {
+        "name": "Need",
+        "person1": "Lexi"
+      },
+      "slides": {
+        "person1": "Bailey"
+      }
+    },
+    {
+      "id": "1726633902170",
+      "theme": "Throwback",
+      "date": "2024-04-01",
+      "song1": {
+        "name": "Hey Ya",
+        "person1": "Ben ",
+        "person2": "Henry"
+      },
+      "mixer": {
+        "name": "Parachute"
+      },
+      "announcements": {
+        "person1": "Mia",
+        "person2": "Bailey"
+      },
+      "skit": {
+        "name": "",
+        "person1": "Kara",
+        "person2": "Lexi"
+      },
+      "game": {
+        "name": "Name that tune"
+      },
+      "raffle": {
+        "person1": "Paige",
+        "person2": "Ben"
+      },
+      "lungbleeder": {
+        "name": "Grenade",
+        "person1": "Laura",
+        "person2": "Syd"
+      },
+      "contentSong": {
+        "name": "One thing remains",
+        "person1": "Ben",
+        "person2": "Allie"
+      },
+      "talk": {
+        "name": "Sin",
+        "person1": "Garrett"
+      },
+      "slides": {
+        "person1": "Syd"
+      }
+    },
+    {
+      "id": "1726634040542",
+      "theme": "Guys Club",
+      "date": "2024-04-22",
+      "song1": {
+        "name": "Dance Party",
+        "person1": "Lamerial",
+        "person2": "JB"
+      },
+      "mixer": {
+        "name": "Egg toss"
+      },
+      "announcements": {
+        "person1": "Jake",
+        "person2": "Asher"
+      },
+      "skit": {
+        "name": "Football",
+        "person1": "Kye",
+        "person2": "Kristos"
+      },
+      "game": {
+        "name": "Guess Baby Food"
+      },
+      "raffle": {
+        "person1": "Marquice",
+        "person2": "Lamerial"
+      },
+      "lungbleeder": {
+        "name": "Rise Up",
+        "person1": "Kye",
+        "person2": "GG"
       },
       "contentSong": {
         "name": "",

@@ -27,9 +27,9 @@ function ClubDetail() {
   const renderField = (label, item) => {
     if (typeof item === 'object' && item !== null) {
       let content = [];
-      if (item.name) content.push(`Name: ${item.name}`);
-      if (item.person1) content.push(`Person 1: ${item.person1}`);
-      if (item.person2) content.push(`Person 2: ${item.person2}`);
+      if (item.name) content.push(`${item.name}`);
+      if (item.person1) content.push(`${item.person1}`);
+      if (item.person2) content.push(`${item.person2}`);
       return (
         <ListGroup.Item>
           <strong>{label}:</strong> {content.join(', ')}
