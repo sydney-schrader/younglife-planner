@@ -1,10 +1,17 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import ClubCard from './ClubCard';
+import { useClubContext } from './ClubContext';
 import './Club.css';
 
-function Club({ clubs }) {
+function Club() {
+  const { clubs, fetchClubs } = useClubContext();
+
+  useEffect(() => {
+    fetchClubs();
+  }, [fetchClubs]);
+
   return (
     <Container className="mt-4">
       <h1>YoungLife Clubs</h1>

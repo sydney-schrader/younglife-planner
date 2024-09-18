@@ -1,0 +1,193 @@
+{
+  "clubs": [
+    {
+      "id": 1,
+      "theme": "Test Club",
+      "date": "2023-05-15"
+    },
+    {
+      "id": "6203",
+      "theme": "Groutfit",
+      "date": "",
+      "song1": {
+        "name": "",
+        "person1": "",
+        "person2": ""
+      },
+      "mixer": {
+        "name": ""
+      },
+      "announcements": {
+        "person1": "",
+        "person2": ""
+      },
+      "skit": {
+        "name": "",
+        "person1": "",
+        "person2": ""
+      },
+      "game": {
+        "name": ""
+      },
+      "raffle": {
+        "person1": "",
+        "person2": ""
+      },
+      "lungbleeder": {
+        "name": "",
+        "person1": "",
+        "person2": ""
+      },
+      "contentSong": {
+        "name": "",
+        "person1": "",
+        "person2": ""
+      },
+      "talk": {
+        "name": "",
+        "person1": ""
+      },
+      "slides": {
+        "person1": ""
+      }
+    },
+    {
+      "id": "94fb",
+      "theme": "New",
+      "date": "",
+      "song1": {
+        "name": "",
+        "person1": "",
+        "person2": ""
+      },
+      "mixer": {
+        "name": ""
+      },
+      "announcements": {
+        "person1": "",
+        "person2": ""
+      },
+      "skit": {
+        "name": "",
+        "person1": "",
+        "person2": ""
+      },
+      "game": {
+        "name": ""
+      },
+      "raffle": {
+        "person1": "",
+        "person2": ""
+      },
+      "lungbleeder": {
+        "name": "",
+        "person1": "",
+        "person2": ""
+      },
+      "contentSong": {
+        "name": "",
+        "person1": "",
+        "person2": ""
+      },
+      "talk": {
+        "name": "",
+        "person1": ""
+      },
+      "slides": {
+        "person1": ""
+      }
+    },
+    {
+      "id": "b4dc",
+      "theme": "Jersey Shore",
+      "date": "2024-09-16",
+      "song1": {
+        "name": "Tonight Tonight",
+        "person1": "Kara",
+        "person2": "Paige"
+      },
+      "mixer": {
+        "name": "Cup Game"
+      },
+      "announcements": {
+        "person1": "Garrett",
+        "person2": "Kate"
+      },
+      "skit": {
+        "name": "Synchronized Swimmers",
+        "person1": "Henry",
+        "person2": "Ashley"
+      },
+      "game": {
+        "name": "Bobbing for apples"
+      },
+      "raffle": {
+        "person1": "Rishi",
+        "person2": "Ben"
+      },
+      "lungbleeder": {
+        "name": "Shallow",
+        "person1": "Kennon",
+        "person2": "Kathryn"
+      },
+      "contentSong": {
+        "name": "10,000 Reasons",
+        "person1": "Ben",
+        "person2": "Allie"
+      },
+      "talk": {
+        "name": "Who is God",
+        "person1": "Grace"
+      },
+      "slides": {
+        "person1": "Sydney"
+      }
+    },
+    {
+      "id": "1726632770941",
+      "theme": "Neon Club",
+      "date": "2024-09-04",
+      "song1": {
+        "name": "",
+        "person1": "",
+        "person2": ""
+      },
+      "mixer": {
+        "name": ""
+      },
+      "announcements": {
+        "person1": "",
+        "person2": ""
+      },
+      "skit": {
+        "name": "",
+        "person1": "",
+        "person2": ""
+      },
+      "game": {
+        "name": ""
+      },
+      "raffle": {
+        "person1": "",
+        "person2": ""
+      },
+      "lungbleeder": {
+        "name": "",
+        "person1": "",
+        "person2": ""
+      },
+      "contentSong": {
+        "name": "",
+        "person1": "",
+        "person2": ""
+      },
+      "talk": {
+        "name": "",
+        "person1": ""
+      },
+      "slides": {
+        "person1": ""
+      }
+    }
+  ]
+}

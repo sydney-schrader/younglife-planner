@@ -1,14 +1,28 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { Container, Card, Button, ListGroup } from 'react-bootstrap';
+import { Container, Card, Button, ListGroup, Alert } from 'react-bootstrap';
+import { useClubContext } from './ClubContext';
 
-function ClubDetail({ clubs }) {
+function ClubDetail() {
   const { id } = useParams();
-  const club = clubs.find(c => c.id === parseInt(id));
+  const { clubs } = useClubContext();
+  const [club, setClub] = useState(null);
+  const [error, setError] = useState(null);
 
-  if (!club) {
-    return <div>Club not found</div>;
-  }
+  useEffect(() => {
+    console.log('ID from URL:', id);
+    console.log('Clubs from context:', clubs);
+    
+    const fetchedClub = clubs.find(c => c.id === id);
+    
+    console.log('Fetched club:', fetchedClub);
+
+    if (fetchedClub) {
+      setClub(fetchedClub);
+    } else {
+      setError('Club not found');
+    }
+  }, [clubs, id]);
 
   const renderField = (label, item) => {
     if (typeof item === 'object' && item !== null) {
@@ -24,6 +38,25 @@ function ClubDetail({ clubs }) {
     }
     return <ListGroup.Item><strong>{label}:</strong> {item}</ListGroup.Item>;
   };
+
+  if (error) {
+    return (
+      <Container className="mt-4">
+        <Alert variant="danger">{error}</Alert>
+        <Link to="/club">
+          <Button variant="primary">Back to Clubs</Button>
+        </Link>
+      </Container>
+    );
+  }
+
+  if (!club) {
+    return (
+      <Container className="mt-4">
+        <Alert variant="info">Loading...</Alert>
+      </Container>
+    );
+  }
 
   return (
     <Container className="mt-4">

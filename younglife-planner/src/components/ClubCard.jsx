@@ -8,7 +8,7 @@ function ClubCard({ club }) {
       <Card.Body>
         <Card.Title>{club.theme}</Card.Title>
         <Card.Text>Date: {club.date}</Card.Text>
-        <Link to={`/club/${club.theme}`}> 
+        <Link to={`/club/${club.id}`}> 
           <Button variant="outline-primary">View Details</Button>
         </Link>
       </Card.Body>

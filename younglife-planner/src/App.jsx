@@ -9,6 +9,7 @@ import Calendar from './components/Calendar';
 import Resources from './components/Resources';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import { ClubProvider } from './components/ClubContext';
 
 function App() {
   const [clubs, setClubs] = useState([
@@ -35,21 +36,23 @@ function App() {
   };
 
   return (
-    <Router>
-      <div className="App">
-        <NavigationBar />
-        <main className="mt-4 p-3">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/club" element={<Club clubs={clubs} />} />
-            <Route path="/plan-club" element={<PlanClub addClub={addClub} />} />
-            <Route path="/club/:id" element={<ClubDetail clubs={clubs} />} />
-            <Route path="/calendar" element={<Calendar />} />
-            <Route path="/resources" element={<Resources />} />
-          </Routes>
-        </main>
-      </div>
-    </Router>
+    <ClubProvider>
+      <Router>
+        <div className="App">
+          <NavigationBar />
+          <main className="mt-4 p-3">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/club" element={<Club clubs={clubs} />} />
+              <Route path="/plan-club" element={<PlanClub addClub={addClub} />} />
+              <Route path="/club/:id" element={<ClubDetail clubs={clubs} />} />
+              <Route path="/calendar" element={<Calendar />} />
+              <Route path="/resources" element={<Resources />} />
+            </Routes>
+          </main>
+        </div>
+      </Router>
+    </ClubProvider>
   );
 }
 

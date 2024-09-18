@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import { Container, Form, Button, Row, Col } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
+import { useClubContext } from './ClubContext'; // Make sure this path is correct
 
-function PlanClub({ addClub }) {
+function PlanClub() {
+  const { addClub } = useClubContext(); // Use the context hook to get addClub
   const [theme, setTheme] = useState('');
   const [date, setDate] = useState('');
   const [song1, setSong1] = useState({ name: '', person1: '', person2: '' });
@@ -18,10 +20,10 @@ function PlanClub({ addClub }) {
 
   const navigate = useNavigate();
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    console.log('Submitting new club...');
     const newClub = {
-      id: Date.now(),
       theme,
       date,
       song1,
@@ -35,8 +37,14 @@ function PlanClub({ addClub }) {
       talk,
       slides
     };
-    addClub(newClub);
-    navigate('/club');
+    console.log('New club data:', newClub);
+    try {
+      await addClub(newClub);
+      console.log('Club added successfully');
+      navigate('/club');
+    } catch (error) {
+      console.error('Error adding club:', error);
+    }
   };
 
   const renderField = (label, value, setValue, options) => (
